@@ -1,0 +1,27 @@
+.modal-overlay {
+  position: relative;
+  width: 100svh;
+  height: 100svh;
+  background-color: #000000;
+  opacity: 50%;
+  z-index: 10;
+}
+
+/* .modal-container {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: cornsilk;
+  bottom: -600px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+  transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
+}
+
+.modal-fadein .modal-container {
+  bottom: 0px;
+  opacity: 1;
+} */

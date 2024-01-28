@@ -4,6 +4,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./pages/Layout";
 import { Home } from "./pages/Home";
+import { Modal } from "./pages/Modal";
 
 export const AuthContext = createContext({});
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home setIsLogin={setIsLogin} />} />
+            <Route path="/modal" element={<Modal />}></Route>
           </Route>
         </Routes>
       </AuthContext.Provider>

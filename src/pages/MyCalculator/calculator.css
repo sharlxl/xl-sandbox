@@ -1,0 +1,68 @@
+.calculator-numpad {
+  display: grid;
+  width: 250px;
+  height: 300px;
+  grid-template-areas:
+    "add subtract multiply divide"
+    "seven eight nine del"
+    "four five six ac"
+    "one two three equal"
+    "zero zero dot equal";
+  /* grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr; */
+}
+
+.numpad-one {
+  grid-area: one;
+}
+.numpad-two {
+  grid-area: two;
+}
+.numpad-three {
+  grid-area: three;
+}
+.numpad-four {
+  grid-area: four;
+}
+.numpad-five {
+  grid-area: five;
+}
+.numpad-six {
+  grid-area: six;
+}
+.numpad-seven {
+  grid-area: seven;
+}
+.numpad-eight {
+  grid-area: eight;
+}
+.numpad-nine {
+  grid-area: nine;
+}
+.numpad-zero {
+  grid-area: zero;
+}
+.numpad-add {
+  grid-area: add;
+}
+.numpad-subtract {
+  grid-area: subtract;
+}
+.numpad-multiply {
+  grid-area: multiply;
+}
+.numpad-divide {
+  grid-area: divide;
+}
+.numpad-del {
+  grid-area: del;
+}
+.numpad-ac {
+  grid-area: ac;
+}
+.numpad-dot {
+  grid-area: dot;
+}
+.numpad-equal {
+  grid-area: equal;
+}

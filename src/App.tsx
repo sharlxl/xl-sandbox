@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./pages/Layout";
 import { Home } from "./pages/Home";
 import { Modal } from "./pages/Modal";
+import MyCalculator from "./pages/MyCalculator";
 
 export const AuthContext = createContext({});
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home setIsLogin={setIsLogin} />} />
             <Route path="/modal" element={<Modal />}></Route>
+            <Route path="/calculator" element={<MyCalculator />}></Route>
           </Route>
         </Routes>
       </AuthContext.Provider>

@@ -3,8 +3,8 @@ import Calculator from "./_components/Calculator";
 
 const MyCalculator = () => {
   return (
-    <div className="">
-      <p>My Calculator</p>
+    <div className="calculator-page">
+      <h1 className="calculator-title">My Simple Calculator</h1>
       <Calculator />
     </div>
   );

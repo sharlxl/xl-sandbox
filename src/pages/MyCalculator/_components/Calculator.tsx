@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NumPad from "./NumPad";
+import "../calculator.css";
 
 const Calculator = () => {
   const [prevOperand, setPrevOperand] = useState("");
@@ -7,7 +8,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator-container">
-      <div>
+      <div className="calculator-display">
         <div className="calculator-prev-operand">{prevOperand}</div>
         <div className="calculator-curr-operand">{currOperand}</div>
       </div>
